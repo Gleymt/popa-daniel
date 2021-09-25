@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="I'm a problem solver, a bug hunter and I love challenges.
+Excited for opportunities to work as a Game Developer so if you want to work together just hit me up.">
+  <title>Popa Daniel | Personal Site</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+  <link rel="manifest" href="./fav/site.webmanifest">
+  <link rel="mask-icon" href="./fav/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+<body>
+
+  <div>
+    <nav class="navbar navbar-expand-md sticky-top justify-content-end" id="navbar">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" id="navbar-photo" href="">
+          <img id="logo-img" alt="This is my logo" src="./imgs/logo2.png">
+
+        </a>
+        <button class="navbar-toggler ml-auto custom-toggler" id="nav-button" type="button" data-toggle="collapse" data-target="#navbarResponsive" name="button">
+          <span class="navbar-toggler-icon" id="nav-span"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link nav-a">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link nav-a">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link nav-a">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link nav-a">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <main>
+
+    <button id="return-top" type="button" name="button" title="Go to Top"><i class="fas fa-arrow-up arrow-fix"></i></button>
+
+
+    <!-- Home section -->
+    <section id="home" class="text-center">
+      <div class="container home-stuff">
+
+        <div class="photo-desc left" data-aos="zoom-in-right">
+          <img src="./imgs/me.png" alt="This is a photo of myself" id="photo-of-me">
+          <div class="">
+            <h2 id="game-dev-txt" class="text-wow-color">
+              <span id="blinking-effect" class="blinking-dash text-wow-color">_</span>
+            </h2>
+
+          </div>
+          <h5>I have a passion for indie games & painting</h5>
+        </div>
+        <div class="about-me-block right" data-aos="zoom-in-left">
+
+          <h3 class="text-wow-color">Hello, Daniel here</h3>
+          <h5>I'm a problem solver, a bug hunter and I love challenges.</h5>
+          <h5>Excited for opportunities to work as a <span class="text-wow-color">Game Developer</span>
+            so if you want to work together just hit me up.</h5>
+          <h5>Been playing video games for my whole life so I have a thorough
+            understanding of the market and target audience for video games.</h5>
+          <h5>Want to grow my professional knowledge by looking for new experiences.</h5>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- Projects section -->
+    <section id="projects">
+      <div class="container-fluid padding title-design">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <h2 class="text-wow-color actual-title">Here are some of my projects</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid padding">
+
+        <!-- First row -->
+        <div class="row padding actual-row">
+
+          <div class="col-lg-4 col-sm-12 test-card-parent">
+            <div class="card test-card" data-aos="fade-down">
+              <div class="card-img-wrapper">
+                <img class="card-img-top" src="./imgs/databases-project.png" alt="CRUD App made in Java">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Databases Project</h4>
+                <p class="card-text">For the Databases project, I created a Java
+                  application that connects to a MySQL database, where I used the
+                  CRUD principle to manage a bank's transactions and customers.</p>
+                <a href="https://github.com/Gleymt/Proiect-Baze-de-Date" target="_blank" class="btn btn-outline-secondary">Details</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 test-card-parent">
+            <div class="card test-card" data-aos="fade-down">
+              <div class="card-img-wrapper">
+                <img class="card-img-top" src="./imgs/chatbot-fantasy.png" alt="Chat bot with AIML">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Chatbot Fantasy</h4>
+                <p class="card-text">I made this bot on the PandoraBots platform
+                  to help the user to choose a fantasy movie. The bot is an intelligent
+                  agent who use natural language processing. The code is written in AIML.</p>
+                <a href="https://github.com/Gleymt/Chatbot-Fantasy" target="_blank" class="btn btn-outline-secondary">Details</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 test-card-parent">
+            <div class="card test-card" data-aos="fade-down">
+              <div class="card-img-wrapper">
+                <img class="card-img-top" src="./imgs/web-aplications-project.png" alt="CRUD App made in PHP">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Web Apps Project</h4>
+                <p class="card-text">This project is for the management of a currency
+                  exchange house. I wrote it in PHP and MySQL, it filters for the database,
+                  a login and an admin page.
+                </p>
+                <a href="https://github.com/Gleymt/Proiect-Proiectarea-aplicatiilor-Web" target="_blank" class="btn btn-outline-secondary">Details</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row -->
+        <div class="row padding actual-row">
+          <div class="col-lg-4 col-sm-12 test-card-parent">
+            <div class="card test-card" data-aos="fade-down">
+              <div class="card-img-wrapper">
+                <img class="card-img-top" src="./imgs/integration-systems-project.png" alt="CRUD App made in Java Spring">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Information Systems Project</h4>
+                <p class="card-text">A more complex version of the management
+                  of a currency exchange house project. There I used Java, MySQL, HTML,
+                  CSS and JS and had an option to export the data as PDF.</p>
+                <a href="https://github.com/Gleymt/Proiect-Integrarea-Sistemelor-Informatice" target="_blank" class="btn btn-outline-secondary">Details</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 test-card-parent">
+            <div class="card test-card" data-aos="fade-down">
+              <div class="card-img-wrapper">
+                <img class="card-img-top" src="./imgs/oop-app-project.png" alt="CRUD App made in C#">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">OOP Apps Project</h4>
+                <p class="card-text">Yet another management of a currency exchange
+                  house project but this one is a desktop app written in C# and MySQL,
+                  it’s based on CRUD principle and it has filters.</p>
+                <a href="https://github.com/Gleymt/Proiect-Proiectarea-aplicatiilor-orientate-pe-obiecte" target="_blank" class="btn btn-outline-secondary">Details</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 test-card-parent">
+            <div class="card test-card" data-aos="fade-down">
+              <div class="card-img-wrapper">
+                <img class="card-img-top" src="./imgs/tema1.png" alt="Finite State Machine simulation
+                  with Asyncio Coroutine">
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Finite State Machine Project</h4>
+                <p class="card-text">I assembled a "Finite State Machine simulation
+                  with Asyncio Coroutine", in which the corutins go through the available
+                  states, until the final state is reached.</p>
+                <a href="https://github.com/Gleymt/Tema-Sisteme-Concurente-si-Distribuite" target="_blank" class="btn btn-outline-secondary">Details</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Work section -->
+    <section id="work">
+      <div class="container-fluid padding title-design">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <h2 class="text-wow-color actual-title">Here is my work and my skills</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid padding">
+
+        <!-- First row -->
+        <div class="row padding work-full-container">
+
+          <div class="col-lg-4 col-sm-12 work-container">
+            <div class="the-work-stuff" data-aos="fade-up">
+              <div class="image-work">
+                <i class="fas fa-briefcase i-fix"></i>
+              </div>
+
+              <div class="work-content background-col-black">
+                <h2 class="text-wow-color background-col-black">Past experiences</h2>
+                <h5 class="background-col-black">These are the places where I grew up professionally but also as a person.</h5>
+                <h3 class="text-wow-color background-col-black">THECON</h3>
+                <h5 class="background-col-black">Here I had an internship for developing and expanding my knowledge
+                  about graphic design, I used <span class="text-wow-color">Photoshop</span> and
+                  <span class="text-wow-color">Illustrator</span> in order to create awesome
+                  website pages. This is the place where I improved my sense of aesthetics.
+                </h5>
+
+                <h3 class="text-wow-color background-col-black">Selir SRL</h3>
+                <h5 class="background-col-black">At Selir SRL I’ve practiced my backend web developer
+                  skills by creating a database for a bank where I used the CRUD principle to manage clients,
+                  transactions and more. The technologies I used here were <span class="text-wow-color">Java</span> (with <span class="text-wow-color">Spring Framework</span>),
+                  <span class="text-wow-color">MySQL</span>, <span class="text-wow-color">HTML</span>, <span class="text-wow-color">CSS</span> and
+                  <span class="text-wow-color">JavaScript</span>.
+                </h5>
+
+                <h3 class="text-wow-color background-col-black">Wind River</h3>
+                <h5 class="background-col-black">This is the place where I've become a better
+                  problem solver by implementing and solving complex algorithms in <span class="text-wow-color">C</span>,
+                  <span class="text-wow-color">C#</span> and <span class="text-wow-color">Java</span>.
+                </h5>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 work-container">
+            <div class="the-work-stuff" data-aos="fade-up">
+
+              <div class="image-work">
+                <i class="fas fa-gamepad i-fix"></i>
+              </div>
+              <div class="work-content background-col-black">
+                <h2 class="text-wow-color background-col-black">Tech Stack</h2>
+                <h5 class="background-col-black">Here are the technologies that I know for the moment, I love to learn new things and I'm doing this constantly.</h5>
+                <h3 class="text-wow-color background-col-black">Development</h3>
+                <h5 class="background-col-black"><span class="text-wow-color">Java</span>,
+                  <span class="text-wow-color">C</span>, <span class="text-wow-color">C++</span>, <span class="text-wow-color">C#</span>,
+                  <span class="text-wow-color">Python</span>, <span class="text-wow-color">PHP</span>, <span class="text-wow-color">MySQL</span>,
+                  <span class="text-wow-color">Oracle Database</span>, <span class="text-wow-color">Apache</span>,
+                  <span class="text-wow-color">Spring</span>, <span class="text-wow-color">ASP.NET</span>, <span class="text-wow-color">Android</span> (with Java),
+                  <span class="text-wow-color">Bash scripting</span>, <span class="text-wow-color">Git</span> and
+                  <span class="text-wow-color">Docker</span>.
+                </h5>
+
+                <h3 class="text-wow-color background-col-black">Design</h3>
+                <h5 class="background-col-black">
+                  <span class="text-wow-color">Photoshop</span>,
+                  <span class="text-wow-color">Illustrator</span>, <span class="text-wow-color">HTML</span>, <span class="text-wow-color">CSS</span> and
+                  <span class="text-wow-color">JavaScript</span>.
+                </h5>
+
+                <h3 class="text-wow-color background-col-black">Tools</h3>
+                <h5 class="background-col-black"><span class="text-wow-color">Unity</span>,
+                  <span class="text-wow-color">IntelliJ IDEA</span>, <span class="text-wow-color">NetBeans</span>,
+                  <span class="text-wow-color">Eclipse</span>, <span class="text-wow-color">Visual Studio Code</span>,
+                  <span class="text-wow-color">Visual Studio</span>, <span class="text-wow-color">Android Studio</span>,
+                  <span class="text-wow-color">PyCharm</span>, <span class="text-wow-color">GitHub</span>,
+                  <span class="text-wow-color">Xampp</span> and <span class="text-wow-color">Notepad++</span>.
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-12 work-container">
+            <div class="the-work-stuff" data-aos="fade-up">
+              <div class="image-work">
+                <i class="fas fa-handshake i-fix"></i>
+              </div>
+
+              <div class="work-content background-col-black">
+                <h2 class="text-wow-color background-col-black">Volunteer Work</h2>
+                <h5 class="background-col-black">I am a proactive person and I like to spend my time wisely, investing
+                  it in something I love or care about.</h5>
+                <h3 class="text-wow-color background-col-black">Fundatia Comunitara Galati</h3>
+                <h5 class="background-col-black">Here I did promoting and volunteering activities regarding the event "SemiMaraton Galati".</h5>
+
+                <h3 class="text-wow-color background-col-black">AIESEC and Scoala de Valori</h3>
+                <h5 class="background-col-black">I was an Ambassador for Grow Summer 2016 project,
+                  I did promoting and I helped the organizer.</h5>
+
+                <h3 class="text-wow-color background-col-black">AIESEC and Scoala de Valori</h3>
+                <h5 class="background-col-black">I was an Ambassador for Grow Winter 2016 project,
+                  I did promoting and I helped the organizer.</h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <!-- Contact section -->
+    <section id="contact">
+      <div class="container">
+        <div class="row links-container">
+          <div class="col-4">
+            <a href="https://github.com/Gleymt" target="_blank" id="git-profile-link" class="personal-links">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="col-4">
+            <a href="https://www.linkedin.com/in/daniel-florin-roma%C8%99c-popa-955423221/" target="_blank" id="linkedin-profile-link" class="personal-links">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <div class="col-4">
+            <a href="./cv/Popa_Daniel_Florin_Romasc_CV.pdf" target="_blank" id="cv-link" class="personal-links">
+              <i class="far fa-id-badge"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid footer-div">
+        <div class="row text-center">
+          <div class="col-12"><br>
+            <p>Made with <span>love</span> by <a href="https://www.linkedin.com/in/daniel-florin-roma%C8%99c-popa-955423221/" target="_blank">Daniel Florin Romașc Popa</a> <sup>&copy</sup> 2021 </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+
+
+
+
+
+
+  <script type="text/javascript" src="./script.js"></script>
+  <script type="text/javascript">
+    AOS.init();
+  </script>
+</body>
+
+</html>
